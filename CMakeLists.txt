@@ -29,6 +29,7 @@ install(
 
 install(
     EXPORT libtess2-config
+    NAMESPACE libtess2::
     DESTINATION share/libtess2
     PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
 )
